@@ -40,6 +40,10 @@ p {
     font-size: 2rem;
 }
 
+button {
+    font-family: 'Iceland', sans-serif;
+}
+
 footer {
     padding: 0.5rem 1rem;
 }
