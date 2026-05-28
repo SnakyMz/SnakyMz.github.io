@@ -79,24 +79,43 @@ header {
     margin: 1rem 0 0 0;
 }
 
-.intro ul {
+.contact {
     list-style: none;
 }
 
-.intro ul li {
+.contact li {
     margin: 0.5rem 0;
 }
 
-.intro a {
-    width: 100%;
+.contact a {
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1.5rem;
+    transition: all ease-in-out 0.5s;
 }
 
-.intro a:hover {
+.contact a:hover {
     color: var(--secondary-color);
     text-decoration: underline;
+}
+
+.resume {
+    margin-top: 2rem;
+}
+
+.resume a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    transition: all ease-in-out 0.5s;
+}
+
+.resume a:hover {
+    background: var(--primary-color);
+    color: var(--background-color);
+    transform: scale(110%);
 }
 
 @media screen and (max-width: 512px) {
@@ -116,11 +135,20 @@ header {
         height: 300px;
     }
 
-    .intro ul li {
+    .contact li {
         margin: 0.3rem 0;
     }
 
-    .intro a {
+    .contact a {
         font-size: 1rem;
+    }
+
+    .resume {
+        margin-top: 1rem;
+    }
+
+    .resume a {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
     }
 }
