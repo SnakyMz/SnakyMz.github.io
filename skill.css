@@ -1,0 +1,45 @@
+#skill {
+    width: 100%;
+    display: flex;
+    background: var(--secondary-color);
+    padding: 2rem;
+    overflow-x: auto;
+}
+
+#skill::-webkit-scrollbar {
+    display: none;
+}
+
+.skillList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    animation: slide 12s linear infinite;
+    padding-right: 2rem;
+}
+
+.skillList img {
+    height: 100px;
+    padding: 0 0.5rem;
+}
+
+@keyframes slide {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    #skill {
+        padding: 1rem;
+    }
+
+    .skillList img {
+        height: 50px;
+    }
+}
