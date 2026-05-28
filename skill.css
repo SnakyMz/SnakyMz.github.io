@@ -10,6 +10,12 @@
     display: none;
 }
 
+#skill:hover {
+    .skillList {
+        animation-play-state: paused;
+    }
+}
+
 .skillList {
     display: flex;
     justify-content: center;
