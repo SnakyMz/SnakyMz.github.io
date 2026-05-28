@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Iceland&display=swap');
+
+:root {
+    --primary-color: #ffd300;
+    --secondary-color: #dc143c;
+    --background-color: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Iceland', sans-serif;
+    color: var(--primary-color);
+}
+
+body {
+    background: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Iceberg', sans-serif;
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    text-decoration: none;
+    text-align: center;
+    background: var(--primary-color);
+    color: var(--background-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+#about {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#about img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.intro {
+    flex: 0 1 60%;
+}
+
+.intro h2 {
+    margin: 1rem 0 0 0;
+}
+
+.intro ul {
+    list-style: none;
+}
+
+.intro ul li {
+    margin: 0.5rem 0;
+}
+
+.intro a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.intro a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 512px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #about img {
+        height: 300px;
+    }
+
+    .intro ul li {
+        margin: 0.3rem 0;
+    }
+
+    .intro a {
+        font-size: 1rem;
+    }
+}
