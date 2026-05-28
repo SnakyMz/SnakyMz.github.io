@@ -40,6 +40,14 @@ p {
     font-size: 2rem;
 }
 
+footer {
+    padding: 0.5rem 1rem;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 512px) {
     h1 {
         font-size: 2rem;
@@ -51,5 +59,9 @@ p {
 
     p {
         font-size: 1.2rem;
+    }
+
+    footer i {
+        font-size: 1rem;
     }
 }

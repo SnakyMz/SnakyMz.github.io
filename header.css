@@ -9,7 +9,7 @@ header {
     text-align: center;
     background: var(--primary-color);
     color: var(--background-color);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     padding: 0.5rem 1rem;
 }
@@ -77,6 +77,10 @@ header {
 }
 
 @media screen and (max-width: 512px) {
+    #logo {
+        font-size: 2rem;
+    }
+
     #about img {
         height: 300px;
     }
