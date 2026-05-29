@@ -60,6 +60,15 @@ footer i {
     font-size: 1.5rem;
 }
 
+.fade {
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.fade.visible {
+    opacity: 1;
+}
+
 @media screen and (max-width: 512px) {
     h1 {
         font-size: 2rem;

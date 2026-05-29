@@ -1,5 +1,18 @@
 import { projects } from './projects.js';
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        } else {
+            entry.target.classList.remove('visible');
+        }
+    })
+}, {})
+
+const fades = document.querySelectorAll('.fade');
+fades.forEach(fade => observer.observe(fade));
+
 // Get the carousal container
 const carousal = document.getElementById('work');
 
@@ -55,7 +68,7 @@ projects.forEach((project) => {
 
     // Append the card to the carousal
     carousal.appendChild(card);
-});
+})
 
 // Get filter buttons and cards
 const filterButtons = document.querySelectorAll("button[data-filter]");
