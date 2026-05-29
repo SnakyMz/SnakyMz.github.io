@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 4rem;
 }
 
 .servecard {
@@ -40,10 +40,6 @@
 @media screen and (max-width: 512px) {
     #service h2 {
         margin: 1rem;
-    }
-
-    .servelist {
-        gap: 2rem;
     }
 
     .servecard {

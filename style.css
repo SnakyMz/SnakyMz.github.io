@@ -18,7 +18,23 @@ html {
 }
 
 body {
-    background: var(--background-color);
+    background: linear-gradient(135deg, #000000, #1d1d1d, #000000);
+    background-size: 200% 200%;
+    animation: auroraFade 12s ease-in-out infinite;
+}
+
+@keyframes auroraFade {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
 h1,
