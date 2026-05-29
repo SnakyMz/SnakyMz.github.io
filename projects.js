@@ -1,0 +1,145 @@
+export const projects = [
+    {
+        title: 'Ufo Dash',
+        company: 'GameDevelopedia',
+        image: './images/ufodash.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'An Endless runner mobile game. Led a remote team of Unity developers, overseeing task delegation, technical guidance, and quality assurance. Developed core gameplay systems, UI/UX features, level layouts & prototypes. Integrated animations, sound, and artist delivered assets into functional builds. Maintained build documentation and coordinated QA testing.',
+        liveLink: 'https://play.google.com/store/apps/details?id=com.GameDevelopedia.UFODash&hl=en-US',
+        sourceLink: null,
+    },
+    {
+        title: 'Sharp Shooter',
+        company: 'Personal Project',
+        image: './images/sharpshooter.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'A First Person Shooting game where you shoot and avoid being hit robots. It was made while learning GameDev.tv 3D Unity course.',
+        liveLink: 'https://play.unity.com/en/games/12ca1a9e-fca6-4421-9981-bcac39fad19a/sharp-shooter',
+        sourceLink: 'https://github.com/SnakyMz/Sharp-Shooter',
+    },
+    {
+        title: 'Royal Run',
+        company: 'Personal Project',
+        image: './images/royalrun.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'A Game where you control a running king to collect coins and avoid obstacles within time limit. It was made while learning GameDev.tv 3D Unity course.',
+        liveLink: 'https://play.unity.com/en/games/e56e1751-00c2-410b-9922-a584cc6d587f/royal-run',
+        sourceLink: 'https://github.com/SnakyMz/Royal-Run',
+    },
+    {
+        title: 'Galaxy Strike',
+        company: 'Personal Project',
+        image: './images/galaxystrike.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'A game where you steer a spaceship and shoot the enemy spaceships while avoiding being hit by them. It was made while learning GameDev.tv 3D Unity course.',
+        liveLink: 'https://play.unity.com/en/games/fb01dece-1839-4bc9-bdcb-b41d0ab9e917/galaxy-strike',
+        sourceLink: 'https://github.com/SnakyMz/Galaxy-Strike',
+    },
+    {
+        title: 'Rocket Boost',
+        company: 'Personal Project',
+        image: './images/rocketboost.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'A game where you steer a Rocket from launch pad to landing pad while avoiding obstacles. It was made while learning GameDev.tv 3D Unity course.',
+        liveLink: 'https://play.unity.com/en/games/d2ee122a-c7c0-4893-96ef-b9bc76d4fcec/rocket-boost',
+        sourceLink: 'https://github.com/SnakyMz/Rocket-Boost',
+    },
+    {
+        title: 'Obstacle Dodge',
+        company: 'Personal Project',
+        image: './images/obstacledodge.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'A game where you avoid obstacles and reach the end destination. It was made while learning GameDev.tv 3D Unity course.',
+        liveLink: 'https://play.unity.com/en/games/bb2e36ee-402f-4c4f-9f37-40cbbaaf524b/obstacle-dodge',
+        sourceLink: 'https://github.com/SnakyMz/Obstacle-Dodge',
+    },
+    {
+        title: 'Fruit Collector',
+        company: 'Personal Project',
+        image: './images/fruitcollector.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a game in which a farmer collects fruits falling from the sky. It was made while learning the Junior Programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/4069370b-b5ab-435c-bc65-9b2be53aa789/fruit-collector',
+        sourceLink: 'https://github.com/SnakyMz/Counting-Prototype',
+    },
+    {
+        title: 'Clicky Stuff',
+        company: 'Personal Project',
+        image: './images/clickystuff.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a clicking game where you avoid clicking bombs and click pieces of stuff to gain a score. It was made while learning the Junior Programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/3b8b4558-c36b-462b-824e-6ace754f9f01/clicky-stuff',
+        sourceLink: 'https://github.com/SnakyMz/Game-Prototype-5',
+    },
+    {
+        title: 'Rolling Falls',
+        company: 'Personal Project',
+        image: './images/rollingfalls.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a marbles game where you tackle enemy marbles to make them fall and avoid falling yourself. Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/e4289ee3-72c7-4377-b244-e7b5e8682330/rolling-falls',
+        sourceLink: 'https://github.com/SnakyMz/Game-Prototype-3',
+    },
+    {
+        title: 'City Jumper',
+        company: 'Personal Project',
+        image: './images/cityjumper.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a game where you avoid obstacles in an endless run. Made while learning Unity Junior Programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/6ecd4c4c-28ca-4c82-b29e-c83b6b933a68/city-jumper',
+        sourceLink: 'https://github.com/SnakyMz/Game-Prototype-3',
+    },
+    {
+        title: 'Cookie Feeder',
+        company: 'Personal Project',
+        image: './images/cookiefeeder.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a game where you throw cookies at wild animals and feed them. Made while learning the Unity Junior Programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/54132f5c-aa67-46ea-ba60-f8662a17aff2/cookie-feeder',
+        sourceLink: 'https://github.com/SnakyMz/Game-Prototype-2',
+    },
+    {
+        title: 'TestRide',
+        company: 'Personal Project',
+        image: './images/testride.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'It is a game where you can test - ride a plane or a car.Made while learning Unity Junior programmer Pathway. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/fd2786c7-a7dd-4997-a4b2-8de528d9eef7/testride',
+        sourceLink: 'https://github.com/SnakyMz/Game-Prototype-1',
+    },
+    {
+        title: 'Sampler',
+        company: 'Personal Project',
+        image: './images/sampler.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'My first Unity project made while learning the Unity Essentials pathway. It contains 2D gameplay and 3D gameplay of controlling a car while moving around in a living room with it. Built with Unity and C#.',
+        liveLink: 'https://play.unity.com/en/games/758a6f00-02b1-47b7-bd3a-5dd03376ecb2/sampler',
+        sourceLink: null,
+    },
+];
