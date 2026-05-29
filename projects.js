@@ -11,6 +11,28 @@ export const projects = [
         sourceLink: null,
     },
     {
+        title: 'Goblin',
+        company: 'Personal Project',
+        image: './images/goblin.png',
+        softwares: [
+            'Blender',
+        ],
+        description: 'A 3D sculpt of a goblin. It was made while learning GameDev.tv Blender course.',
+        liveLink: null,
+        sourceLink: null,
+    },
+    {
+        title: 'TRex',
+        company: 'Personal Project',
+        image: './images/trex.png',
+        softwares: [
+            'Blender',
+        ],
+        description: 'A low poly 3D model of a TRex with some environment. It was made while learning GameDev.tv Blender course.',
+        liveLink: null,
+        sourceLink: null,
+    },
+    {
         title: 'Sharp Shooter',
         company: 'Personal Project',
         image: './images/sharpshooter.png',
@@ -20,6 +42,17 @@ export const projects = [
         description: 'A First Person Shooting game where you shoot and avoid being hit robots. It was made while learning GameDev.tv 3D Unity course.',
         liveLink: 'https://play.unity.com/en/games/12ca1a9e-fca6-4421-9981-bcac39fad19a/sharp-shooter',
         sourceLink: 'https://github.com/SnakyMz/Sharp-Shooter',
+    },
+    {
+        title: 'Dungeon',
+        company: 'Personal Project',
+        image: './images/dungeon.png',
+        softwares: [
+            'Blender',
+        ],
+        description: 'A 3D model of a stylized modular dungeon. It was made while learning GameDev.tv Blender course.',
+        liveLink: null,
+        sourceLink: null,
     },
     {
         title: 'Royal Run',
@@ -42,6 +75,17 @@ export const projects = [
         description: 'A game where you steer a spaceship and shoot the enemy spaceships while avoiding being hit by them. It was made while learning GameDev.tv 3D Unity course.',
         liveLink: 'https://play.unity.com/en/games/fb01dece-1839-4bc9-bdcb-b41d0ab9e917/galaxy-strike',
         sourceLink: 'https://github.com/SnakyMz/Galaxy-Strike',
+    },
+    {
+        title: 'Rocky Base',
+        company: 'Personal Project',
+        image: './images/rockybase.png',
+        softwares: [
+            'Blender',
+        ],
+        description: 'A 3D model of a rocky base with houses and a lighthouse. It was made while learning GameDev.tv Blender course.',
+        liveLink: null,
+        sourceLink: null,
     },
     {
         title: 'Rocket Boost',
