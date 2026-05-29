@@ -10,7 +10,7 @@ main h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 .filter button {
@@ -171,6 +171,15 @@ main h2 {
 }
 
 @media screen and (max-width: 512px) {
+    main h2 {
+        margin: 1rem;
+    }
+
+    .filter {
+        gap: 0.5rem;
+        margin: 1rem 0.5rem;
+    }
+
     .filter button {
         font-size: .8rem;
         padding: 0.3rem 0.6rem;
