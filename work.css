@@ -44,6 +44,8 @@ main h2 {
     overflow-x: auto;
     gap: 1rem;
     scroll-snap-type: x mandatory;
+    anchor-name: --carousal;
+    scroll-behavior: smooth;
 }
 
 #work::scroll-button(right),
@@ -58,15 +60,22 @@ main h2 {
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
+    position: fixed;
+    position-anchor: --carousal;
+    position-area: right center;
+    translate: -50%;
 }
 
 #work::scroll-button(left) {
     content: '<';
+    position-area: left center;
+    translate: 50%;
 }
 
 #work::scroll-button(right):disabled,
 #work::scroll-button(left):disabled {
     opacity: 0.5;
+    cursor: auto;
 }
 
 .workcard {
