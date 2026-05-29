@@ -1,0 +1,53 @@
+#service h2 {
+    text-align: center;
+    margin: 2rem;
+    padding-top: 1rem;
+    border-top: 0.2rem solid var(--primary-color);
+}
+
+.servelist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.servecard {
+    flex: 0 1 25%;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+    transition: all ease-in-out 0.5s;
+}
+
+.servecard:hover {
+    scale: 110%;
+}
+
+.servecard img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.servecard p {
+    color: var(--background-color);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 512px) {
+    #service h2 {
+        margin: 1rem;
+    }
+
+    .servelist {
+        gap: 2rem;
+    }
+
+    .servecard {
+        flex: 0 1 80%;
+        border-radius: 1rem;
+    }
+}
