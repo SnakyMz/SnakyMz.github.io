@@ -1,5 +1,16 @@
 export const projects = [
     {
+        title: 'HyperFlight Arena',
+        company: 'Akiyam',
+        image: './images/hyperflightarena.png',
+        softwares: [
+            'Unity',
+        ],
+        description: 'HyperFlight Arena is a high-speed futuristic aerial racing game that pushes the limits of precision flying and adrenaline-fueled competition. Imported and integrated plane models from 3D artists, ensuring proper integration in Unity.',
+        liveLink: 'https://store.epicgames.com/p/hyperflight-arena-f4e961?lang=en-US',
+        sourceLink: null,
+    },
+    {
         title: 'Ufo Dash',
         company: 'GameDevelopedia',
         image: './images/ufodash.png',
