@@ -7,8 +7,20 @@ export const projects = [
             'Unreal',
             'Inkscape',
         ],
-        description: 'Poolstory is Third Person multiplayer shooter game. Developed UI components and integrated animations in Unreal Engine (C++). Promoted to Team Lead after two months, delegated tasks, reviewed deliverables, and coordinated development team progress.',
+        description: 'Poolstory is third person multiplayer shooter game. Developed UI components and integrated animations in Unreal Engine (C++). Assisted with bug fixing and optimization to improve gameplay stability and performance. Promoted to Team Lead after two months, delegated tasks, reviewed deliverables, and coordinated development team progress.',
         liveLink: 'https://realdini.com/',
+        sourceLink: null,
+    },
+    {
+        title: 'Outbreak Zero Hour',
+        company: 'Akiyam',
+        image: './images/outbreakzerohour.png',
+        softwares: [
+            'Unity',
+            'Blender',
+        ],
+        description: 'Outbreak Zero Hour is a third person zombie horror game. Prototyped and polished scenes using Unity’s ProBuilder. designed and textured supporting game assets in Blender. Developed save/load system, scene transitions and particle effects triggering.',
+        liveLink: 'https://akiyam.in/#/products/gaming',
         sourceLink: null,
     },
     {
