@@ -1,5 +1,17 @@
 export const projects = [
     {
+        title: 'Pool Story',
+        company: 'Realdini Studios',
+        image: './images/poolstory.png',
+        softwares: [
+            'Unreal',
+            'Inkscape',
+        ],
+        description: 'Poolstory is Third Person multiplayer shooter game. Developed UI components and integrated animations in Unreal Engine (C++). Promoted to Team Lead after two months, delegated tasks, reviewed deliverables, and coordinated development team progress.',
+        liveLink: 'https://realdini.com/',
+        sourceLink: null,
+    },
+    {
         title: 'HyperFlight Arena',
         company: 'Akiyam',
         image: './images/hyperflightarena.png',

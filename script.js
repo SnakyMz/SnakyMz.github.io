@@ -19,9 +19,9 @@ projects.forEach((project) => {
     project.softwares.forEach((software) => {
         const softwareItem = document.createElement('li');
         softwareItem.innerHTML = software;
-        card.dataset.tags = software.toLowerCase();
         cardSoftwares.appendChild(softwareItem);
     });
+    card.dataset.tags = project.softwares.map(software => software.toLocaleLowerCase()).join(',');
     const cardImage = document.createElement('img');
     cardImage.src = project.image;
 
