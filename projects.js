@@ -13,7 +13,7 @@ export const projects = [
     {
         title: 'Pool Story',
         company: 'Realdini Studios',
-        image: './images/PoolStory.png',
+        image: './images/Poolstory.png',
         softwares: [
             'Unreal',
             'Inkscape',
@@ -25,7 +25,7 @@ export const projects = [
     {
         title: 'Outbreak Zero Hour',
         company: 'Akiyam',
-        image: './images/OutbreakZeroHour.png',
+        image: './images/OutbreakZerohour.png',
         softwares: [
             'Unity',
             'Blender',
