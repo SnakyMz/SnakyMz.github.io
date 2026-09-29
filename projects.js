@@ -1,5 +1,16 @@
 export const projects = [
     {
+        title: 'Zero Drag',
+        company: 'Rural Games',
+        image: './images/zerodrag.png',
+        softwares: [
+            'Unreal',
+        ],
+        description: 'Zero Drag is a First Person psychological thriller game. Developed gameplay mechanics with UI in Unreal Engine(Blueprints).Worked with Metahumans & integrated art assets',
+        liveLink: 'https://ruralgames.online/pages/game_zerodrag.html',
+        sourceLink: null,
+    },
+    {
         title: 'Pool Story',
         company: 'Realdini Studios',
         image: './images/poolstory.png',
